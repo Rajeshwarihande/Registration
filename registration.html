@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+  <meta name="viewport" content="width=device-width,initial -scale=1">
+  <style>
+      .container{
+          background-color:skyblue;
+          padding: 10px;
+            cursor: pointer;
+            
+          }
+                input[type=text]:focus,
+                input[type=password]:focus{
+                    background-color:rgb(218, 247, 92);
+                }
+                .registerbtn{
+                
+                    border: solid 2px black;
+                    padding: 10px 20px;
+                    margin: 8px 0;
+                    width: 50%;
+                    opacity: 0.9;
+                        background-color:yellowgreen;
+                }
+                .registerbtn:hover{
+                    opacity: 1;
+                    background-color: limegreen;
+                }
+  </style>
+  </head>
+  <body>
+      <form>
+          <div class="container">
+             <centre><h1>Registration Form</h1></centre> 
+             <hr>
+             <label>Student Name :</label><br>
+             <input type="text"name="Firstname"placeholder="Firstname" size="10"required/>
+             
+             <input type="text"name="Middlename"placeholder="Middlename" size="10"required/>
+             
+             <input type="text"name="Lastname"placeholder="Lastname" size="10"required/><br></div>
+         <div class="container">
+             <label>Birth Date :</label><br>
+             <input type="date"name="date"placeholder="date" size="10"required/><br>
+             <div class="container"> <label>Gender :</label><br>
+             <input type="radio"value="Male"name="gender"checked> Male
+             <input type="radio"value="Female"name="gender"checked> Female
+             <input type="radio"value="Other"name="gender"checked> Other <br> </div>
+          <div class="container">
+             <label>Coarce :</label><br>
+             <select>
+             <option value="BE">BE</option>
+             <option value="BCA">BCA</option>
+             <option value="Architecture">Architecture</option>
+             <option value="BCom">BCom</option>
+             <option value="BSc">BSc</option>
+             <option value="MBA">MBA</option>
+             </select><br> </div>
+             <div class="container">
+                <label>Mobile Number :</label><br>
+                <input type="text"name="country code"placeholder="+91" size="2"/>
+                <input type="text"name="Mobile no."placeholder="Mobile No." size="10"/>
+             </div>
+             <div class="container">
+                <label>Address :</label><br>
+                <input type="text"name="city"placeholder="City" size="10"required/>
+                <input type="text"name="pin code"placeholder="Pin code" size="10"required/>
+                <input type="text"name="State"placeholder="State" size="10"required/>
+                <input type="text"name="country"placeholder="country" size="10"required/><br>
+                
+
+             </div>
+
+             
+          <div class="container">
+          <label>Email :</label><br>
+          <input type="text"name="Email"placeholder="Enter email" size="25"/><br>
+          
+          </div>
+          <div class="container">
+            <label>Password :</label><br>
+            <input type="text"name="Password"placeholder="Enter Password" size="15"/><br>
+
+              </div>
+              <div class="container">
+                  
+                <label>Re-type Password :</label><br>
+                <input type="text"name="Re-type Password"placeholder="Enter Password" size="15"/><br>
+              </div>
+                    <button type="submit" class="registerbtn">Register</button>
+                    
+                
+              
+
+         </div>
+              
+      </form>
+  </body>
+</html>
